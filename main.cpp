@@ -3,7 +3,8 @@
 
 using namespace std;
 int main() {
-    int numero;
+    //EJERCICIO NUMERO 1
+    /*int numero;
     cout << "INGRESE UN NUMERO Y LE DIRE SI ES PAR O IMPAR: " << endl;
     cin >> numero;
 
@@ -11,7 +12,22 @@ int main() {
         cout<<numero<<" ES UN NUMERO PAR"<<endl;
     }else {
         cout<<numero<<" ES UN NUMERO IMPAR"<<endl;
-    }
+    }*/
+
+    //EJERCICION NUMERO 2
+    int numero;
+    int i;
+    cout<<"INGRESE UN NUMERO: "<<endl;
+    cin>>numero;
+    do {
+        for (i=1; i<=numero; i++){
+            cout<<i<<endl;
+        }
+
+
+    }while (i ==numero);
+
+
 
     return 0;
 }
